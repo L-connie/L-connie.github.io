@@ -1,0 +1,66 @@
+*{margin:0; padding:0;}
+body{font-size:12px;font-family:"Microsoft YaHei"}
+ul,li{list-style-type:none;}
+img{vertical-align:top;}
+a{color:black;text-decoration:none;}
+.cf:after{content:'';display:table;clear:both;}
+.top .navbar{border-radius:0;font-size:14px;min-height: 40px;margin-bottom: 0;}
+.top .navbar-nav>li>a{padding-top:10px;padding-bottom:10px;}
+.top .navbar-brand{padding:10px 15px;height:40px;}
+
+.btm1 .jumbotron{background:#020031;height:520px;text-align:center;color:#fff;margin-bottom:0;
+    /*background:-webkit-gradient(linear,left bottom,right top,color-stop(0%,#020031),color-stop(100%,#6d3353));*/
+    /*background:-webkit-linear-gradient(45deg,#020031 0,#6d3353 100%);*/
+    background:linear-gradient(45deg,#020031 0,#6d3353 100%);/*45度角颜色渐变。。。不懂 */
+}
+.btm1 .jumbotron:after{content:'';display:block;position:absolute;z-index:1;height:520px;
+    top:0;left:0;right:0;bottom:0;  /* 少一个都不行*/
+    background:url(../images/mid-bg.png) repeat center center;opacity:.4;}
+.btm1 div.haha{position:absolute;left:7%;top:15%;z-index:100;}
+.btm1 .jumbotron h1{font-size:100px;font-weight:700;margin-top:30px;}
+.btm1 .btn-group-lg>.btn, .btn-lg{padding:13px 35px 17px;}
+.btm1 .jumbotron .container p{color:#999;font-size:14px;margin-top:15px;cursor:pointer}
+.btm .navbar{font-size:14px;margin-bottom: 0;}
+.btm .navbar .center{width:63%;margin:0 auto;}
+.btm .navbar .center a{padding-left:25px;}
+.btm .navbar-default ul   a.a1:hover{color:#337ab7;background:url(../images/QQ1.png) no-repeat 0 12px;}
+.btm .navbar-default ul   a.a2:hover{text-decoration: underline}
+.btm .navbar-default ul   a.a3:hover{color:#a00;text-decoration: underline;background:url(../images/weibo1.png) no-repeat 0 13px;}
+.btm .navbar .center span{display:inline-block;width:1px;background:#bbb;height:13px;margin-left:10px;}
+
+.btm .navbar .center .a1{background:url(../images/QQ.png) no-repeat 0 12px;}
+.btm .navbar .center .a2{background:url(../images/weixin.png) no-repeat 0 12px;}
+.btm .navbar .center .a3{background:url(../images/weibo.png) no-repeat 0 13px;}
+
+
+.btm2 .jumbotron{text-align:center;font-weight:bold;background:#fff;margin-bottom: 40px;padding-bottom:0;}
+.btm2 .jumbotron h2{font-size:40px;}
+.btm2 .jumbotron p{font-size:15px;}
+.btm2 .jumbotron span{display:block;width:687px;height:1px;background:#efefef;margin:0 auto;}
+
+.box{}
+.box .row{margin-right:0;margin-left:0;}
+.box .li{width:262px;height:335px;border:1px solid #ccc;text-align:center;margin-right:30px;margin-bottom:30px;}
+.box .li dt{padding:4px;}
+.box .li dt img{width:252px;height:128px;}
+.box .li dd.dd1{font-size:23px;color:#337ab7;margin-top:20px;}
+.box .li dd.dd2{font-size:14px;color:#777;line-height:35px;}
+.box .li dd.dd3{font-size:14px;color:#555;padding:0 15px;}
+.box li.col-md-4{padding-left:0;padding-right:0;}
+.box li.li5{margin-right:0;}
+
+.bottom{margin-top:100px;padding-top:40px; border-top:1px solid #ccc;}
+.bottom .left{float:left;}
+.bottom .left h2{color:#533b77;}
+.bottom .left span{display:inline-block;width:30px;height:30px;border-radius:3px;color:#fff;background:#533b77;text-align:center;line-height:30px;}
+.bottom .left p{font-size:14px;color:#777}
+.bottom .right{float:right;}
+.bottom .right li{float:left;}
+.bottom .right li dt{font-size:16px;color:#533b77;font-weight:400;margin-bottom:10px;}
+.bottom .right li dd{font-size:14px;color:#777;}
+.bottom .last{text-align:center;margin-top:25px;padding-top:23px;color:#777;border-top:1px solid #eee;margin-bottom:40px;font-size:12px;}
+.bottom .last span{display:inline-block; width:1px; height:12px;background:#bbb;margin:0 10px;}
+
+div.jt{background:#aaa;position:fixed;right:20px;bottom:-44px;padding:12px;}
+div.jt:hover{background:#666;}
+
