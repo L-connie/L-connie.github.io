@@ -241,7 +241,7 @@ img{vertical-align:top;}
 .btm2 .li6{width:550px;margin:0 auto;margin-top:16px;}
 .btm2 .li6 a{padding-right:14px;}
 /*右下角窗口固定部分*/
-.fixed{position:fixed;right:134px;bottom:54px;}
+.fixed{position:fixed;right:118px;bottom:24px;}
 .fixed li{width:40px;height:40px;margin-bottom:1px;background:url(../images/fudong.png) no-repeat ;}
 .fixed li a{  display:inline-block;width:40px;height:40px;}
 .fixed li.last1{background-position-x:-41px;}
